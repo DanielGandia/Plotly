@@ -15,6 +15,8 @@ The client has a partially completed dashboard that she needs to finish. She has
 
 ### Deliverable 1:
 
+Horizontal bar chart displaying the Top Ten Bacterial Species (OTUs).
+
 ![bar_chart.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/bar_chart.png)
 
 ### Webpage view after Deliverable 1:
@@ -22,6 +24,8 @@ The client has a partially completed dashboard that she needs to finish. She has
 ![bar_chart_top_10.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/bar_chart_top_10.png)
 
 ### Deliverable 2:
+
+Bubble chart displaying the Bacterial Cultures present per each sample.
 
 ![bubble_chart.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/bubble_chart.png)
 
@@ -31,6 +35,8 @@ The client has a partially completed dashboard that she needs to finish. She has
 
 ### Deliverable 3:
 
+Gauge showing the recommended scrubs per week, based on the bacterial culture.
+
 ![gauge.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/gauge.png)
 
 ### Webpage view after Deliverable 1 through 3:
@@ -38,5 +44,7 @@ The client has a partially completed dashboard that she needs to finish. She has
 ![deliverable_1_thru_3.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/deliverable_1_thru_3.png)
 
 ### Deliverable 4:
+
+Customization of the dashboard's webpage using HTML and Bootstrap.
 
 ![deliverable_4.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/deliverable_4.png)
