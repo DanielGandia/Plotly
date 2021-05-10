@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Belly Button Biodiversity by DG</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+
+  <body style="background-color: #ebebeb">
+    <div class="container">
+      <div class="row">
+        <div
+          class="jumbotron text-center"
+          style="
+            background-image: url('https://pbs.twimg.com/media/B-iLI1BCUAA_5m6.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 300px;
+          "
+        >
+          <style>
+            .blurr-shadow {
+              text-shadow: 3px 3px 8px #000000;
+            }
+          </style>
+          <h1 style="color: white" class="blurr-shadow">
+            <b>Belly Button Biodiversity Dashboard</b>
+          </h1>
+          <style>
+            .blurr-shadow {
+              text-shadow: 3px 3px 6px #000000;
+            }
+          </style>
+          <h3 style="color: white" class="blurr-shadow">by Daniel Gandía</h3>
+        </div>
+      </div>
+      <h2><strong>Welcome to the Belly Button Biodiversity Dashboard!</strong></h2>
+      <h4>
+        <br />Use the interactive charts below to explore the datasets of the
+        different bacterial cultures found in the belly button. <br />
+        <br />Below is a <b>Test Subject ID</b> dropdown. Please select a number
+        from the dropdown to see the demographic information from each test
+        subject in the table. The <b>Bar Chart</b> provides information
+        regarding the top ten species found in belly buttons. The
+        <b>Gauge Graph</b> shows the amount of scrubs that are suggested based
+        on the specific bacterial culture. The <b>Bubble Graph</b> you will see
+        the Bacteria Cultures Per Samples.
+      </h4>
+
+      <div class="row">
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Test Subject ID No.:</h5>
+            <!-- <select id="selDataset"></select> -->
+            <select
+              id="selDataset"
+              onchange="optionChanged(this.value)"
+            ></select>
+          </div>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Demographic Info</h3>
+            </div>
+            <div id="sample-metadata" class="panel-body"></div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <br />
+          <div id="bar"></div>
+        </div>
+        <div class="col-md-5">
+          <br />
+          <div id="gauge"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <br />
+          <div id="bubble"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="charts.js"></script>
+  </body>
+</html>
