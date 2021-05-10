@@ -29,7 +29,7 @@ Bubble chart displaying the Bacterial Cultures present per each sample.
 
 ![bubble_chart.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/bubble_chart.png)
 
-### Webpage view after Deliverable 1 and 2
+### Webpage view after Deliverables 1 and 2
 
 ![deliverable_1_and_2.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/deliverable_1_and_2.png)
 
@@ -39,7 +39,7 @@ Gauge showing the recommended scrubs per week, based on the bacterial culture.
 
 ![gauge.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/gauge.png)
 
-### Webpage view after Deliverable 1 through 3:
+### Webpage view after Deliverables 1 through 3:
 
 ![deliverable_1_thru_3.png](https://github.com/DanielGandia/Plotly/blob/main/static/images/deliverable_1_thru_3.png)
 
